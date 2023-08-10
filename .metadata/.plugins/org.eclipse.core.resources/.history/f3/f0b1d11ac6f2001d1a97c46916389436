@@ -1,0 +1,19 @@
+package com.ict.edu;
+
+public class Ex02_StringBuffer_Tokenizer {
+	public static void main(String[] args) {
+//		문자열을 추가할 때 사용(메모리 주소가 변경되지 않는다.)
+//		추가할 때 append() 사용
+//		toString() => String 전환한다.
+		StringBuffer sb = new StringBuffer("ictedu");
+//		추가
+		sb.append(" 대한민국");
+		
+		System.out.println(sb);
+		System.out.println(sb.toString());
+		
+		
+		
+		
+	}
+}

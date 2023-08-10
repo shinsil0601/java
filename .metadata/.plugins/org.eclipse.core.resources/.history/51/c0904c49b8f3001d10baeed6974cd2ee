@@ -1,0 +1,6 @@
+package com.ict.edu4;
+
+public interface Ex04_unit {
+//	다형성 객체
+ public void decEnergy();
+}

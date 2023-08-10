@@ -1,0 +1,10 @@
+package com.ict.edu2;
+
+public class Phone_main {
+	public static void main(String[] args) {
+//		전화로 알아보는 상속관계
+		
+		
+		
+	}
+}

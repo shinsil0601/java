@@ -1,0 +1,10 @@
+package com.ict.edu5;
+
+public class Test {
+	public static void main(String[] args) {
+		
+		 double per = (double)(3)/5*100.0;
+		 System.out.printf("%.2",per);
+		
+	}
+}

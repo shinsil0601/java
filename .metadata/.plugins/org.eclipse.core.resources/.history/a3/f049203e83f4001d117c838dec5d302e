@@ -1,0 +1,54 @@
+package com.ict.edu2;
+
+import java.awt.Dimension;
+import java.awt.Toolkit;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
+
+public class Ex08_JTextComponent extends JFrame{
+	public Ex08_JTextComponent() {
+		super("JTextComponent");
+		
+		JPanel jp = new JPanel();
+		
+//		JLabel : 글자를 표시한다. 수정불가
+		JLabel jb1 = new JLabel();
+		jb1.setText("I  D  : ");
+		JLabel jb2 = new JLabel("p  w  : ");
+		JLabel jb3 = new JLabel("자기소개서 : ");
+		
+//		한줄 글자입력: JTextField
+		JTextField jtf1= new JTextField();
+		jtf1.setText("아이디 입력");
+		jtf1.setColumns(20);  //보이는 글자 길이
+		JTextField jtf2= new JTextField("비번입력", 20);
+		
+//		메모장과 같이 여러줄 글자 입력: JTextArea(행, 열);
+		JTextArea jta = new JTextArea(5, 20);
+		
+		
+		
+		
+		jp.add(jb1);
+		jp.add(jtf1);
+		jp.add(jb2);
+		jp.add(jtf2);
+		jp.add(jb3);
+		jp.add(jta);
+		
+		add(jp);
+		
+		Dimension ds = Toolkit.getDefaultToolkit().getScreenSize();
+		setBounds(ds.width/2-500, ds.height/2-200, 1000, 400);
+		setVisible(true);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+	}
+	
+	public static void main(String[] args) {
+		new Ex08_JTextComponent();
+	}
+}

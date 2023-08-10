@@ -1,0 +1,33 @@
+package com.ict.edu;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+
+public class Ex07_LocalDate {
+	public static void main(String[] args) {
+//		java version 1.8이상만 가능
+//		LocalDate : 날짜 정보만 필요할때
+//		LocalTime : 시간 정보만 필요할때
+//		LocalDate : 날짜, 시간 모두 필요할때
+		
+		LocalDate cDate = LocalDate.now();
+		System.out.println(cDate);
+		
+		LocalTime cTime = LocalTime.now();
+		System.out.println(cTime);
+		
+		LocalDateTime cdt = LocalDateTime.now();
+		System.out.println(cdt);
+		System.out.println();
+		
+		System.out.println("날짜");
+		System.out.println("getYears() : "+ cDate.getYear());
+		System.out.println("getMonth() : "+ cDate.getMonth());
+		System.out.println("getMonthValue() : "+ cDate.getMonthValue());
+		System.out.println("getDayOfYear() : "+ cDate.getDayOfYear());
+		System.out.println("getDayOfMonth() : "+ cDate.getDayOfMonth());
+		System.out.println("getDayOfWeek() : "+ cDate.getDayOfWeek());
+		
+	}
+}

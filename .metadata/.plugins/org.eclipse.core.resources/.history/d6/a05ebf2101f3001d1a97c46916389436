@@ -1,0 +1,11 @@
+package com.ict.edu5;
+
+public class Ex02_Dog extends Ex02_Animal {
+	String color = "블랙";
+	
+	@Override
+	public void sound() {  //sound 적고  ctrl+스페이스하면 오버라이드 됨
+		System.out.println("멍~멍~");
+	}
+	
+}

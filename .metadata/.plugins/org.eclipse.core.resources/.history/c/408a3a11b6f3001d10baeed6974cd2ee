@@ -1,0 +1,9 @@
+package com.ict.edu4;
+
+public class Ex04_Zerg implements Unit {
+	super();
+	this.name = name;
+	this.energy = energy;
+	this.fly = fly;
+	
+}

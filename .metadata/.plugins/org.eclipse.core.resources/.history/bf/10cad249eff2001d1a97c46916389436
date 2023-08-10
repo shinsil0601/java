@@ -1,0 +1,29 @@
+package homecom.ict.edu2work;
+
+public class Random_LowHigh {
+
+	private int total = 0;
+	private int w = 0;
+	private int init = 0;
+	
+	public int getTotal() {
+		return total;
+	}
+	public void setTotal() {
+		this.total++;
+	}
+	public int getW() {
+		return w;
+	}
+	public void setW() {
+		this.w++;
+	}
+	public int getInit() {
+		return init;
+	}
+	public void setInit() {
+		this.total = this.init;
+	}
+	
+	
+}

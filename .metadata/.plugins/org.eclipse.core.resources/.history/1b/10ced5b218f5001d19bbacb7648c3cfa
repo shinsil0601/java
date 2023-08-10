@@ -1,0 +1,10 @@
+package com.ict.edu;
+
+
+//	예외처리: try~ catch~
+public class Ex01_Exception {
+	public static void main(String[] args) {
+		
+		
+	}
+}

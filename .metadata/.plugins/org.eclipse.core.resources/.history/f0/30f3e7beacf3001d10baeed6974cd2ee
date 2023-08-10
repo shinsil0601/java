@@ -1,0 +1,20 @@
+package com.ict.edu3;
+
+
+//	인터페이스 상속
+// 	1. 자식클래스가 일반 클래스인 경우 반드시 오버라이딩 해야 된다.(implement)
+//	2.
+public class Ex01_extends implements Ex01_interface {
+
+	@Override
+	public void sound() {
+	System.out.println("음악듣기");
+	}
+
+	@Override
+	public void play() {
+		System.out.println("게임하기");
+		
+	}
+
+}

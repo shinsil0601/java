@@ -1,0 +1,34 @@
+package com.ict.edu;
+
+interface Animal{
+	public void sound(); 
+}
+	
+class Dog implements Animal{
+	@Override
+	public void sound() {
+		System.out.println("멍~멍~");
+	}
+}
+
+class Cat{
+	void play(Animal animal) {
+		animal.sound();
+	}
+}
+
+public class Ex09_Anonymous {
+	public static void main(String[] args) {
+		Dog dog = new Dog();
+		dog.sound();
+		
+		Cat cat = new Cat();
+		cat.play(new Animal() {
+			
+			@Override
+			public void sound() {
+				System.out.println("야옹~");
+			}
+		});
+	}
+}

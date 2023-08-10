@@ -1,0 +1,23 @@
+package com.ict.edu4;
+
+public class Ex04_Terran implements Ex04_unit{
+	private String name;
+	private int energy;
+	private boolean fly;
+	
+	public Ex04_Terran() {	}
+	
+	public Ex04_Terran(String name, int energy, boolean fly) {
+		super();
+		this.name = name;
+		this.energy = energy;
+		this.fly = fly;
+	}
+
+	@Override
+	public void decEnergy() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

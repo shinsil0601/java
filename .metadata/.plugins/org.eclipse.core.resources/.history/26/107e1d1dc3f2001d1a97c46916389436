@@ -1,0 +1,42 @@
+package com.ict.edu;
+
+public class Ex01_String {
+	public static void main(String[] args) {
+		String s1 = "ictedu";
+		String s2 = "ictedu";
+		String s3 = new String("ictedu");  //new 생성자를 이용
+		String s4 = new String("ictedu");  //new 생성자를 이용
+		char[] ch = {'i','c','t','e','d','u'};
+		String s5 = new String(ch);
+		
+		System.out.println(s1);  //ictedu
+		System.out.println(s2);  //ictedu
+		System.out.println(s3);  //ictedu
+		System.out.println(s4);  //ictedu
+		System.out.println(s5);  //ictedu
+	
+		if (s1 == s2) {  //같다
+			System.out.println("같다");
+		} else {
+			System.out.println("같지 않다");
+		}
+		System.out.println();
+		if (s1 == s3) {  //같지 않다
+			System.out.println("같다");
+		} else {
+			System.out.println("같지 않다");
+		}
+		System.out.println();
+		if (s1 == s4) {  //같지 않다
+			System.out.println("같다");
+		} else {
+			System.out.println("같지 않다");
+		}
+		System.out.println();
+		if (s1 == s5) {  //같지 않다
+			System.out.println("같다");
+		} else {
+			System.out.println("같지 않다");
+		}
+	}
+}

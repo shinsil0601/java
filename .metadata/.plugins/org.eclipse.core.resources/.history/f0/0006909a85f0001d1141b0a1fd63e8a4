@@ -1,0 +1,15 @@
+package com.ict.edu;
+
+public class Ex02_main {
+	public static void main(String[] args) {
+		EX02_static p1 = new EX02_static();
+		
+		System.out.println(p1.su1);
+		System.out.println(p1.su2);
+		
+		
+		
+		
+	}
+	
+}

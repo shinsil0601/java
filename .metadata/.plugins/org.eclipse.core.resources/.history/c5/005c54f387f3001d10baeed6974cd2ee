@@ -1,0 +1,17 @@
+package com.ict.edu;
+
+public class Ex01_Animal {
+	int eyes = 2;
+	String color = "그레이";
+	
+	public void sound() {
+		System.out.println("울음소리");
+	}
+	public void hobby() {
+		System.out.println("좋아하는 행동");
+	}
+	public void sleep() {
+		System.out.println("8시간 이상 잠을 잔다.");
+	}
+	
+}

@@ -1,0 +1,34 @@
+package com.ict.edu2;
+
+import java.awt.Dimension;
+import java.awt.Toolkit;
+
+import javax.swing.JButton;
+import javax.swing.JCheckBox;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class Ex03_CheckBox extends JFrame{
+	public Ex03_CheckBox() {
+		super("체크박스");
+		
+		JPanel jp = new JPanel();
+		
+		JCheckBox jcb1= new JCheckBox();
+		jcb1.setText("야구");
+		
+		JCheckBox jcb2= new JCheckBox("축구");
+		JCheckBox jcb3= new JCheckBox("농구");
+		JCheckBox jcb4= new JCheckBox("배구");
+		
+		Dimension ds = Toolkit.getDefaultToolkit().getScreenSize();  //박스크기 지정
+		setBounds(ds.width/2-150, ds.height/2-250, 300, 500);
+		setVisible(true); //화면에 보여주기
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+	}
+	
+	public static void main(String[] args) {
+		new Ex03_CheckBox();
+		
+	}
+}

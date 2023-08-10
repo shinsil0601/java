@@ -1,0 +1,19 @@
+package com.ict.edu;
+
+public class Ex01_Cat extends Ex01_Animal{
+	String color = "삼색";
+	
+	@Override
+	public void sound() {
+		System.out.println("야옹~");
+	}
+	
+	public void play() {
+		System.out.println("창밖을 바라본다.");
+	}
+	@Override
+	public void sleep() {  //메소드에  final (상수개념)
+		System.out.println("8시간 이상 잠을 잔다.");
+	}
+	
+}

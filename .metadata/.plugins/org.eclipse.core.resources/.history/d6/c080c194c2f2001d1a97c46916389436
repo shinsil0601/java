@@ -1,0 +1,19 @@
+package com.ict.edu;
+
+public class Ex01_String {
+	public static void main(String[] args) {
+		String s1 = "ictedu";
+		String s2 = "ictedu";
+		String s3 = new String("ictedu");  //new 생성자를 이용
+		String s4 = new String("ictedu");  //new 생성자를 이용
+		char[] ch = {'i','c','t','e','d','u'};
+		String s5 = new String(ch);
+		
+		System.out.println(s1);  //
+		System.out.println(s2);
+		System.out.println(s3);
+		System.out.println(s4);
+		System.out.println(s5);
+		
+	}
+}

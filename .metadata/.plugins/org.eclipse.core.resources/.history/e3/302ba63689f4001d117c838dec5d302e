@@ -1,0 +1,30 @@
+package com.ict.edu2;
+
+import java.awt.Dimension;
+import java.awt.Toolkit;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JTabbedPane;
+
+public class Ex09_JTab extends JFrame{
+	public Ex09_JTab() {
+		super("JTab");
+		
+//		XXXPane = 컨테이너 = 다른컨테이너를 가질수 있고, 컴포넌트도 가질 수 있다.
+		JTabbedPane jtab = new JTabbedPane();
+		
+		JPanel jp1 = new JPanel();
+		JPanel jp2 = new JPanel();
+		JPanel jp3 = new JPanel();
+		
+		
+		Dimension ds = Toolkit.getDefaultToolkit().getScreenSize();
+		setBounds(ds.width/2-200, ds.height/2-200, 500, 500);
+		setVisible(true);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+	}
+	public static void main(String[] args) {
+		new Ex09_JTab();
+	}
+}

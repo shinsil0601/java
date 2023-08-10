@@ -1,0 +1,5 @@
+package com.ict.edu3;
+
+public interface Ex02_add {
+
+}

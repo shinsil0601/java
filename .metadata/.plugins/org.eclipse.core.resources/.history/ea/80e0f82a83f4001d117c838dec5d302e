@@ -1,0 +1,31 @@
+package com.ict.edu2;
+
+import java.awt.Dimension;
+import java.awt.Toolkit;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class Ex08_JTextComponent extends JFrame{
+	public Ex08_JTextComponent() {
+		super("JTextComponent");
+		
+		JPanel jp = new JPanel();
+		
+		
+		
+		
+		jp.add(jp);
+		
+		add(jp);
+		
+		Dimension ds = Toolkit.getDefaultToolkit().getScreenSize();
+		setBounds(ds.width/2-500, ds.height/2-200, 1000, 400);
+		setVisible(true);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+	}
+	
+	public static void main(String[] args) {
+		new Ex08_JTextComponent();
+	}
+}

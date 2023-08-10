@@ -1,0 +1,11 @@
+package homework;
+
+public class Baseball {
+//		야구게임
+//		10 회부터 계속할까요(y/n)   사용
+//		몇번째에 만 맞춰는지 출력
+		
+		private int a = 0;
+		
+	
+}

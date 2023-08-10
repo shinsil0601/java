@@ -1,0 +1,17 @@
+package com.ict.edu;
+
+public class Ex03_sub {
+//	메서드필드 선언 및 초기화
+	String name = "홍반장";
+	int age = 13;
+	double weight = 78.9;
+	
+//	생성자 만들기
+	public Ex03_sub() {
+		System.out.println("자식클래스 생성자 : "+ this);
+	}
+
+	
+	
+	
+}

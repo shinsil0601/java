@@ -1,0 +1,11 @@
+package com.ict.edu;
+
+public class Ex09_main {
+	public static void main(String[] args) {
+		Ex09_Constructor p1 = new Ex09_Constructor("홍길동", 98, 99, 76)
+		
+		
+		
+		
+	}
+}

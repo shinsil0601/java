@@ -1,0 +1,14 @@
+package com.ict.edu2;
+
+import javax.swing.JFrame;
+
+public class Ex06_ComboBox extends JFrame {
+	public Ex06_ComboBox() {
+		super
+		
+	}
+	
+	public static void main(String[] args) {
+		new Ex06_ComboBox();
+	}
+}

@@ -1,0 +1,13 @@
+package com.ict.edu3;
+
+public class Ex01_main {
+	public static void main(String[] args) {
+		
+		System.out.println(Ex01_interface.SU1);
+		System.out.println(Ex01_interface.SU2);
+		System.out.println(Ex01_interface.SU3);
+		System.out.println(Ex01_interface.SU4);
+		
+		Ex01_interface.like();
+	}
+}

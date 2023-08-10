@@ -1,0 +1,18 @@
+package com.ict.edu5;
+
+public class Ex02_Animal_main {
+	public static void main(String[] args) {
+		Ex02_Dog dog = new Ex02_Dog();
+		Ex02_Cat cat = new Ex02_Cat();
+		
+		dog.sound();
+		System.out.println(dog.hobby());
+		System.out.println(dog.eyes);
+		System.out.println(dog.color);
+
+		cat.sound();
+		System.out.println(cat.eyes);
+		System.out.println(cat.color);
+		
+	}
+}

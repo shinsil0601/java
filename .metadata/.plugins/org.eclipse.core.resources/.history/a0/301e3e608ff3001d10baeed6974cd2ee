@@ -1,0 +1,6 @@
+package com.ict.edu2;
+
+//	추상클래스를 상속했을때 처리방법
+public abstract class Ex02_extends extends Ex01_abstract{
+
+}
